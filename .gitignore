@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# raw data (~160 MB) is not committed: copy cs-train/ and cs-production/ from
+# https://github.com/aavail/ai-workflow-capstone into data/
+data/cs-train/
+data/cs-production/
+data/combined/
+models/
+models_frozen/
+cs-train/
+cs-production/

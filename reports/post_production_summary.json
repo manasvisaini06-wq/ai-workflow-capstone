@@ -1,0 +1,14 @@
+{
+  "period": [
+    "2019-08-01",
+    "2019-11-07"
+  ],
+  "n_forecasts": 1089,
+  "tolerance": 0.2,
+  "corr_log_revenue_vs_wape": -0.505857761990722,
+  "drift": {
+    "flag_rate": 0.12029384756657484,
+    "mape_flagged": 100.5169406408247,
+    "mape_unflagged": 85.45229676562528
+  }
+}

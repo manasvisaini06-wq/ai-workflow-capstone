@@ -1,0 +1,53 @@
+{
+  "rows_loaded": 815011,
+  "rows_kept": 815008,
+  "adjustments_removed": 3,
+  "first_day": "2017-11-28",
+  "last_day": "2019-07-31",
+  "n_countries": 43,
+  "q4_vs_typical_ratio": 2.32,
+  "revenue_30d": {
+    "min": 84438.33,
+    "median": 170236.70200000002,
+    "max": 541280.651
+  },
+  "uk_share_pct": 90.3,
+  "top10_share_pct": 97.8,
+  "weekday_median": {
+    "Mon": 6838.37,
+    "Tue": 6846.280000000001,
+    "Wed": 5487.705,
+    "Thu": 7065.06,
+    "Fri": 5331.21,
+    "Sat": 0.0,
+    "Sun": 3202.43
+  },
+  "largest_day": {
+    "date": "2018-12-04",
+    "revenue": 170304.18
+  },
+  "zero_day_pct": {
+    "all": 19.0,
+    "united_kingdom": 19.0,
+    "germany": 41.2,
+    "eire": 52.0,
+    "france": 53.4,
+    "netherlands": 78.2,
+    "spain": 83.0,
+    "portugal": 88.2,
+    "norway": 96.9,
+    "hong_kong": 98.5,
+    "singapore": 99.0
+  },
+  "feature_correlation": {
+    "has_previous_year": -0.359,
+    "previous_year": -0.328,
+    "previous_70": 0.131,
+    "previous_14": 0.19,
+    "previous_28": 0.194,
+    "previous_7": 0.197,
+    "recent_views": 0.501,
+    "recent_invoices": 0.618
+  },
+  "cancellation_pct_overall": 18.0
+}

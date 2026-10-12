@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.git
+logs/
+models/
+.pytest_cache/
+data/cs-train/ts-data/
+models_frozen/

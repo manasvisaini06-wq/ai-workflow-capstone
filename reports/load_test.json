@@ -1,0 +1,29 @@
+{
+  "url": "http://localhost:8080",
+  "requests_per_level": 300,
+  "levels": {
+    "1": {
+      "throughput_rps": 110.5,
+      "errors": 0,
+      "p50_ms": 7,
+      "p95_ms": 22,
+      "max_ms": 40
+    },
+    "8": {
+      "throughput_rps": 63.3,
+      "errors": 0,
+      "p50_ms": 114,
+      "p95_ms": 231,
+      "max_ms": 306
+    },
+    "32": {
+      "throughput_rps": 67.0,
+      "errors": 0,
+      "p50_ms": 457,
+      "p95_ms": 594,
+      "max_ms": 680
+    }
+  },
+  "batch_50_queries_ms": 342,
+  "batch_status": 200
+}

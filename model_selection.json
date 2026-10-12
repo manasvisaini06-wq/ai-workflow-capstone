@@ -1,0 +1,84 @@
+{
+  "rule": "lowest pooled rolling-origin RMSE; learned model must beat baseline by 5% else baseline_naive",
+  "selection": {
+    "all": "baseline_naive",
+    "united_kingdom": "baseline_naive",
+    "eire": "ridge_no_year",
+    "germany": "ridge_no_year",
+    "france": "ridge_no_year",
+    "norway": "ridge_ratio",
+    "spain": "blend_ridge",
+    "hong_kong": "random_forest_no_year",
+    "portugal": "blend_ridge",
+    "singapore": "ridge_ratio",
+    "netherlands": "ridge"
+  },
+  "detail": {
+    "all": {
+      "best_learned": "blend_ridge",
+      "best_learned_rel_rmse": 1.26,
+      "chosen": "baseline_naive",
+      "beats_baseline_by_5pct": false
+    },
+    "united_kingdom": {
+      "best_learned": "blend_ridge",
+      "best_learned_rel_rmse": 1.157,
+      "chosen": "baseline_naive",
+      "beats_baseline_by_5pct": false
+    },
+    "eire": {
+      "best_learned": "ridge_no_year",
+      "best_learned_rel_rmse": 0.547,
+      "chosen": "ridge_no_year",
+      "beats_baseline_by_5pct": true
+    },
+    "germany": {
+      "best_learned": "ridge_no_year",
+      "best_learned_rel_rmse": 0.738,
+      "chosen": "ridge_no_year",
+      "beats_baseline_by_5pct": true
+    },
+    "france": {
+      "best_learned": "ridge_no_year",
+      "best_learned_rel_rmse": 0.603,
+      "chosen": "ridge_no_year",
+      "beats_baseline_by_5pct": true
+    },
+    "norway": {
+      "best_learned": "ridge_ratio",
+      "best_learned_rel_rmse": 0.83,
+      "chosen": "ridge_ratio",
+      "beats_baseline_by_5pct": true
+    },
+    "spain": {
+      "best_learned": "blend_ridge",
+      "best_learned_rel_rmse": 0.698,
+      "chosen": "blend_ridge",
+      "beats_baseline_by_5pct": true
+    },
+    "hong_kong": {
+      "best_learned": "random_forest_no_year",
+      "best_learned_rel_rmse": 0.781,
+      "chosen": "random_forest_no_year",
+      "beats_baseline_by_5pct": true
+    },
+    "portugal": {
+      "best_learned": "blend_ridge",
+      "best_learned_rel_rmse": 0.722,
+      "chosen": "blend_ridge",
+      "beats_baseline_by_5pct": true
+    },
+    "singapore": {
+      "best_learned": "ridge_ratio",
+      "best_learned_rel_rmse": 0.695,
+      "chosen": "ridge_ratio",
+      "beats_baseline_by_5pct": true
+    },
+    "netherlands": {
+      "best_learned": "ridge",
+      "best_learned_rel_rmse": 0.691,
+      "chosen": "ridge",
+      "beats_baseline_by_5pct": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+timestamp,country,train_start,train_end,rmse,baseline_rmse,runtime,model_version,model_name,note
+2026-10-12T06:49:38+00:00,all,2018-02-06,2019-07-02,29514.17,29514.17,00:00:00,1.0,baseline_naive,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,united_kingdom,2018-02-06,2019-07-02,26499.22,26499.22,00:00:00,1.0,baseline_naive,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,eire,2018-02-06,2019-07-02,3133.66,5851.13,00:00:00,1.0,ridge_no_year,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,germany,2018-02-06,2019-07-02,588.23,901.72,00:00:00,1.0,ridge_no_year,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,france,2018-02-06,2019-07-02,660.37,1437.91,00:00:00,1.0,ridge_no_year,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,norway,2018-02-06,2019-07-02,857.61,1036.54,00:00:00,1.0,ridge_ratio,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,singapore,2018-02-06,2019-07-02,3855.46,7908.65,00:00:00,1.0,ridge_ratio,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,hong_kong,2018-02-06,2019-07-02,2176.45,2281.64,00:00:00,1.0,random_forest_no_year,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,spain,2018-02-06,2019-07-02,307.46,372.1,00:00:00,1.0,blend_ridge,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,portugal,2018-02-06,2019-07-02,3742.53,5167.16,00:00:00,1.0,blend_ridge,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
+2026-10-12T06:49:38+00:00,netherlands,2018-02-06,2019-07-02,216.31,425.68,00:00:00,1.0,ridge,"per-country gradient boosting on trailing-revenue features, 30-day horizon"
